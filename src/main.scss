@@ -1,3 +1,111 @@
-body {
-	background: firebrick;
+* {
+  margin: 0;
+  padding: 0;
 }
+
+.container {
+  padding: 0 10px;
+}
+
+.main-image {
+  background: url("../images/girl1.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 200px 100px;
+  .main-title {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+  }
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.main-content {
+  margin-top: 20px;
+
+  .side_bar {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 0 30px;
+    border-right: 1px solid #CCCCCC;
+    box-sizing: border-box;
+
+    //.widget-title::after {
+    //  content: '';
+    //  position: absolute;
+    //  top: 50%;
+    //  left: 0;
+    //  right: 0;
+    //  border-top: 1px solid #d6d6d6;
+    //  z-index: -1;
+    //  box-sizing: border-box;
+    //}
+
+    .widget {
+      margin-bottom: 25px;
+    }
+    .widget-title {
+      color: #FFB35D;
+      font-family: "Great Vibes", cursive;
+      font-weight: lighter;
+      font-size: 25px;
+    }
+
+    .avatar {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      margin-top: 25px;
+      overflow: hidden;
+      position: relative;
+      display: inline-block;
+
+      img {
+        width: 300px;
+        height: auto;
+      }
+    }
+
+    .introduction {
+      margin-top: 25px;
+      font-size: 16px;
+      color: #A3A3A3;
+      font-family: Lato, Georgia, Times, serif;
+    }
+
+    .contact-logos {
+      list-style: none;
+      text-align: center;
+      margin-top: 25px;
+      padding: 0 100px;
+
+      .contact-logo {
+        float: left;
+        width: 25%;
+        box-sizing: border-box;
+        font-size: 20px;
+
+        .fa {
+          color: #6E7078;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .content {
+    width: 70%;
+    float: right;
+    padding: 0 30px;
+    box-sizing: border-box;
+
+  }
+}
+
+
