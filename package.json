@@ -2,22 +2,19 @@
   "name": "3weeks3pages",
   "version": "0.0.1",
   "description": "3 weeks 3 page boilerplate",
-  "scripts": {
-    "clean": "[[ $(find ./dist -type d 2>/dev/null) ]] && rm -r dist; exit 0",
-    "build": "NODE_ENV=dev babel --presets react,es2015,stage-0 src/js -d dist && gulp sass:build",
-    "demo": "http-server -p 3030 & node ./src/demo/cros.js",
-    "test": "npm run clean && npm run build && NODE_ENV=test jest"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/xjsi/3week3page-boilerplate.git"
+    "url": "https://github.com/mumuyang1/3_weeks_3_pages.git"
   },
   "keywords": [
     "3 weeks 3 page"
   ],
-  "author": "Xiaojing Si",
+  "author": "Yanzi Li",
   "license": "ThoughtWorks",
   "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "font-awesome": "^4.6.3",
     "gulp": "^3.9.1",
     "gulp-live-server": "0.0.30",
     "gulp-sass": "^2.3.2"
