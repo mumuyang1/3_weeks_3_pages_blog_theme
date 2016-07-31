@@ -34,7 +34,6 @@
     float: left;
     text-align: center;
     padding: 0 30px;
-    border-right: 1px solid #CCCCCC;
     box-sizing: border-box;
 
     //.widget-title::after {
@@ -177,6 +176,7 @@
     float: right;
     padding: 0 30px;
     box-sizing: border-box;
+    border-left: 1px solid #CCCCCC;
 
     .blogs {
       text-align: center;
