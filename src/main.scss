@@ -65,10 +65,13 @@
       overflow: hidden;
       position: relative;
       display: inline-block;
-
       img {
         width: 300px;
         height: auto;
+      }
+      &:hover {
+        transform: rotateY(180deg);
+        transition-duration: 2s;
       }
     }
     .introduction {
@@ -95,18 +98,33 @@
         }
       }
     }
-
     .contact {
       background: url("../images/contact.jpg");
+      &:hover {
+        transform: scale(1.1);
+        transition-duration: 0.6s;
+      }
     }
     .about {
       background: url("../images/girl2.jpg");
+      &:hover {
+        transform: scale(1.1);
+        transition-duration: 0.6s;
+      }
     }
     .life {
       background: url("../images/life.jpg");
+      &:hover {
+        transform: scale(1.1);
+        transition-duration: 0.6s;
+      }
     }
     .tech {
       background: url("../images/tech1.jpg");
+      &:hover {
+        transform: scale(1.1);
+        transition-duration: 0.6s;
+      }
     }
 
     .category {
