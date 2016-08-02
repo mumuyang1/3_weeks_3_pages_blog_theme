@@ -1,0 +1,22 @@
+{
+  "name": "3weeks3pages",
+  "version": "0.0.1",
+  "description": "3 weeks 3 page boilerplate",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mumuyang1/3_weeks_3_pages.git"
+  },
+  "keywords": [
+    "3 weeks 3 page"
+  ],
+  "author": "Yanzi Li",
+  "license": "ThoughtWorks",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.30",
+    "gulp-sass": "^2.3.2"
+  }
+}
